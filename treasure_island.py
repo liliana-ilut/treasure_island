@@ -62,21 +62,3 @@ else:
 
 
 
-
-
-
-# 
-#         if tcl == "blue":
-#             print("eaten by warewolves")
-#         elif tcl == "yellow":
-#             print("you win")
-#         elif tcl == "red" :
-#             print("burnt by fire. over")
-#         else:
-#             print("game over")    
-# if fcl != "rigth" and fcl != "left":
-#     print("finito la comedia")
-
-
-
-
