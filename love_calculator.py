@@ -65,4 +65,4 @@ if int(love_score) < 10 or int(love_score) > 90:
 elif int(love_score) >= 40 and int(love_score) <= 50:
     print(f"Your score is {love_score}, you are alright together.")
 else:
-    print(f"Your score is {love_score}.")     
+    print(f"Your score is {love_score}, challenging relationship...")     
