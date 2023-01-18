@@ -30,7 +30,7 @@ print("Your mission is to find the treasure.")
 #Write your code below this line 👇
 
 #there are 3 choices in this situation
-first_choice = input("You\'ve came to a crossroad. Would you like to go Left or Right? ")
+first_choice = input("You\'ve came to a crossroad. Would you like to go Left or Right?\n")
 
 #lower the characters for the answers
 fcl = first_choice.lower()
@@ -38,14 +38,13 @@ fcl = first_choice.lower()
 if fcl == "right":
     print("Finito la comedia! This was a short game for you!")
 elif fcl == "left":
-    second_choice = input("There is a river you need to cross. Would you like to swim across the Black River or wait for a boat? ")
+    second_choice = input("There is a river you need to cross. Would you like to swim across the Black River or wait for a boat?\n")
     scl = second_choice.lower()
     if scl == "swim":
         print ("Game over! You were attacked by a water monster!")
     elif scl == "wait":
-        third_choice = input("You\'ve arrived to a house with 3 doors: Red, Blue or Yellow. Which door would you like to open? ")
+        third_choice = input("You\'ve arrived to a house with 3 doors: Red, Blue or Yellow. Which door would you like to open?\n")
         tcl = third_choice.lower()
-    # print(third_choice)
         if tcl == "blue":
             print("Game over! You were eaten by warewolves")
         elif tcl == "yellow":
